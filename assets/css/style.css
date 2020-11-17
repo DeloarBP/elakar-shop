@@ -1,0 +1,118 @@
+
+@import "../../assets/fonts/style.css"; 
+
+.font-bb {
+    font-family: Bitopi Bijoy !important;
+}
+.font-bu{
+    font-family: Bitopi Uni !important;
+}
+
+.min-h-screen {
+    min-height: 100vh !important;
+}
+
+.bg-hero-image {
+    background-image: url('../../assets/images/hero.png');
+    background-size: 100%;
+}
+.color-font-top {
+    color: #93193A;
+}
+.elakar-shop-font {
+    font-weight: 800;
+    font-size: 38px;
+    color: #4F5251;
+}
+.hater-muthoy {
+    font-size: 22px;
+    padding-left: 29px;
+}
+.mobile-img-control {
+    height: 68% !important;
+}
+.play-store {
+    height: 9.5%;
+}
+
+.bar-code{
+    height: 30% !important;
+}
+
+.download-text {
+    font-size: 25px;
+}
+/*
+|----------------------------------------------------------------
+| second section
+|----------------------------------------------------------------
+*/
+
+.bar-section-bg {
+    background-color: #7E0B2C !important
+}
+/*
+|----------------------------------------------------------------
+| icon section
+|----------------------------------------------------------------
+*/
+.image-icon-area {
+    width: 80px;
+    overflow: hidden;
+}
+.image-icon-area img.fb{
+    padding: 27px;
+}
+.call-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.fb-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.image-icon-area img.call{
+    padding: 19px;
+}
+/*
+|----------------------------------------------------------------
+| last section
+|----------------------------------------------------------------
+*/
+
+.last-section-bg {
+    background-color: #F4EFF0 !important
+}
+
+.partner-text {
+    color: #7E0B2C;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.next {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    right: -25px;
+    top: 40%;
+    bottom: 0;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.prev {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: -25px;
+    top: 40%;
+    bottom: 0;
+    border: 1px solid;
+    border-radius: 20px;
+}
