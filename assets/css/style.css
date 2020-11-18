@@ -116,3 +116,31 @@
     border: 1px solid;
     border-radius: 20px;
 }
+
+@media (max-width: 600px){
+    .next {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    right: 15px !important;
+    top: 40%;
+    bottom: 0;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #ffff;
+    }
+    .prev {
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        left: 15px !important;
+        top: 40%;
+        bottom: 0;
+        z-index: 999999999;
+        border: 1px solid;
+        border-radius: 20px;
+        color: #ffff;
+    }
+}

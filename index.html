@@ -14,23 +14,26 @@
     <div>
         <section class="min-h-screen bg-hero-image">
            <div class="container pb-5">
+                <div class="d-flex justify-content-center pt-5 w-100 d-lg-none">
+                    <img class="img-fluid" style="height: 120px;" src="./assets/images/logo.png" alt="logo" />
+                </div>
                 <nav class="row pt-5">
-                    <div class="col-md-4">
-                        <h2 class="color-font-top">elakar.shop</h2>
+                    <div class="col-md-12 col-lg-3">
+                        <h2 class="color-font-top text-center">elakar.shop</h2>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-12 col-lg-6">
                         <div class="d-flex align-items-center">
-                            <div>
+                            <div class="d-none d-lg-block">
                                 <img class="img-fluid" style="height: 120px;" src="./assets/images/logo.png" alt="logo" />
                             </div>
-                            <div>
+                            <div class="mx-auto mx-lg-0">
                                 <h2 class="font-bb elakar-shop-font">এলাকার শপ</h2>
                                 <p class="font-bu hater-muthoy">এলাকা হাতের মুঠোয় </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <h4 class="text-right font-bu color-font-top">
+                    <div class="col-md-12 col-lg-3">
+                        <h4 class="text-center text-lg-right font-bu color-font-top">
                             পরীক্ষামূলক সম্প্রচার 
                         </h4>
                     </div>
@@ -40,14 +43,16 @@
            <div class="container-fluid">
                <div class="d-flex align-items-center justify-content-center">
                     <div class="row">
-                        <div class="col-md-6 d-flex justify-content-end ">
+                        <div class="col-md-6 d-flex justify-content-center justify-content-md-end ">
                             <img class="mobile-img-control" src="./assets/images/mobile.png" />
                         </div>
-                        <div class="col-md-6 pt-5">
-                            <img class="img-fluid play-store" src="./assets/images/google-play-badge-logo.png" />
-                            <h5 class="pl-3 pt-3 pb-2">iOS COMING SOON</h5>
-                            <img  class="img-fluid bar-code" src="./assets/images/bar_code.png" />
-                            <h5 class="pl-5 pt-3 font-bu download-text">স্ক্যান করে অ্যাপ <br/> ডাউনলোড করুন</h5>
+                        <div class="col-md-6 pt-5 d-flex justify-content-center">
+                            <div>
+                                <img class="img-fluid play-store d-block mx-auto mx-md-0 d-md-flex" src="./assets/images/google-play-badge-logo.png" />
+                                <h5 class="pl-3 pt-3 pb-2 text-center text-md-left">iOS COMING SOON</h5>
+                                <img  class="img-fluid bar-code d-block mx-auto mx-md-0 d-md-flex" src="./assets/images/bar_code.png" />
+                                <h5 class="pl-md-5 text-center text-md-left pt-3 font-bu download-text">স্ক্যান করে অ্যাপ <br/> ডাউনলোড করুন</h5>
+                            </div>
                         </div>
                     </div>
                </div>
@@ -55,19 +60,23 @@
         </section>
 
         <section class="bar-section-bg py-5">
-            <div class="container">
-                <div class="w-25 mx-auto">
-                    <div class="d-flex justify-content-start align-items-center fb-text">
-                        <div class="image-icon-area">
-                            <img class="img-fluid fb" src="./assets/images/fb.png" alt="" />
+            <div class="d-flex justify-content-center">
+                <div>
+                    <div class="row pb-3">
+                        <div class="col-3">
+                            <img class="img-fluid" style="height: 50px;" src="./assets/images/fb.png" alt="" />
                         </div>
-                        <h2 class="ml-3 text-white">Elakar Shop</h2>
+                        <div class="col-9">
+                            <h2 class="text-white">Elakar Shop</h2>
+                        </div>
                     </div>
-                    <div class="d-flex justify-content-start align-items-center">
-                        <div class="image-icon-area">
+                    <div class="row pt-3">
+                        <div class="col-3">
                             <img class="img-fluid call" src="./assets/images/calls.png" alt="">
                         </div>
-                        <h3 class="ml-2 text-white">01919080186</h3>
+                        <div class="col-9">
+                            <h3 class="ml-2 text-white">01919080186</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -123,6 +132,34 @@
                     </svg></span>`,
                 autoplay: true,
                 autoplaySpeed: 2000,
+                responsive: [
+                        {
+                        breakpoint: 1024,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 3,
+                                infinite: true,
+                                dots: true
+                            }
+                        },
+                        
+                        {
+                        breakpoint: 600,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2
+                            }
+                        },
+
+                        {
+                        breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        }
+
+                ]
             });
         });
 
